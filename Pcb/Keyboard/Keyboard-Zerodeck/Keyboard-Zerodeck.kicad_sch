@@ -300,193 +300,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_Expansion:MCP23017x-x-ML"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1552,170 +1365,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -1832,563 +1481,81 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Col4"
-		(exclude_from_sim no)
-		(at 113.284 41.148 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0228fa42-a665-4b10-836a-a3a308775f85")
-	)
-	(text "Col7"
-		(exclude_from_sim no)
-		(at 178.054 40.386 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "091a3def-24ed-48e5-b789-f776e9e67612")
-	)
-	(text "Col8"
-		(exclude_from_sim no)
-		(at 198.374 40.132 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0dae069a-7a04-4996-91e9-aad58505ac43")
-	)
-	(text "Col5"
-		(exclude_from_sim no)
-		(at 134.874 41.148 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1169aabc-15ff-4d2a-9ea2-343f80204da0")
-	)
-	(text "Col6"
-		(exclude_from_sim no)
-		(at 156.464 41.148 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "32729538-19ad-416d-84e2-a46bd6b2b301")
-	)
-	(text "Row1\n"
-		(exclude_from_sim no)
-		(at 189.992 20.828 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5aee37d4-beaf-4bf7-aceb-aad2810a8be4")
-	)
-	(text "Col1"
-		(exclude_from_sim no)
-		(at 49.784 41.656 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aa820d81-b35f-400e-a62e-9eb7ff7ec7a1")
-	)
-	(text "Col9\n"
-		(exclude_from_sim no)
-		(at 219.71 40.132 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af84ceed-5c40-430b-8f5c-1e5b78b4e0a5")
-	)
-	(text "Row3\n"
-		(exclude_from_sim no)
-		(at 190.5 79.502 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b47dacf6-74d0-450b-8624-6ca3e291b4ff")
-	)
-	(text "Row2"
-		(exclude_from_sim no)
-		(at 189.738 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b79969da-ddcb-4d58-8779-ccf0d2b694f3")
-	)
-	(text "Col3"
-		(exclude_from_sim no)
-		(at 92.964 41.402 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c890427c-0742-4896-b8a5-01b3be119e04")
-	)
-	(text "Col2"
-		(exclude_from_sim no)
-		(at 70.104 41.656 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d2d40433-0332-4364-9e76-27f140a69c1c")
-	)
 	(junction
-		(at 71.12 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0277761e-c875-484d-aa69-b70bf4615988")
-	)
-	(junction
-		(at 157.48 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05d0841e-f3d0-4d7c-9e01-05036430a845")
-	)
-	(junction
-		(at 71.12 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f94cff7-712e-4071-a58d-f4ac87d23093")
-	)
-	(junction
-		(at 139.7 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11cea795-f0e2-48d7-98d0-06ed33d537e3")
-	)
-	(junction
-		(at 93.98 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "130df1a6-0d7f-46f2-9091-d0c9593019d1")
-	)
-	(junction
-		(at 76.2 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e107495-a55f-4246-9565-f249607413ae")
-	)
-	(junction
-		(at 76.2 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ed74504-0902-4b5c-8d60-af98e1d678ee")
-	)
-	(junction
-		(at 220.98 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21070133-9f1a-4d0a-9502-615d890b3dc9")
-	)
-	(junction
-		(at 53.34 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "249387d3-9965-4506-93c9-12801d656f8c")
-	)
-	(junction
-		(at 181.61 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "261f4310-5ad3-4cba-93d5-9d3f93014f96")
-	)
-	(junction
-		(at 181.61 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "290e1e2f-6cf1-46f5-bd52-82868f888bfa")
-	)
-	(junction
-		(at 246.38 144.78)
+		(at 113.03 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ab3c077-32b8-4d45-8e0c-ea9fe3cc97dc")
 	)
 	(junction
-		(at 118.11 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f0a3c70-7ea2-40db-873f-8d40ecbdd62d")
-	)
-	(junction
-		(at 118.11 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "337522c9-fa56-4617-aa9c-40442f5d7995")
-	)
-	(junction
-		(at 96.52 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e157f95-01bb-4845-98c9-24af5400f1ee")
-	)
-	(junction
-		(at 96.52 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f25f508-70a5-4848-9d7a-58bf176c04a6")
-	)
-	(junction
-		(at 50.8 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42fbf6fc-4ebd-41ec-8079-fc4cc3c43f23")
-	)
-	(junction
-		(at 161.29 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44135809-8493-4ce0-8847-f5fa067a0009")
-	)
-	(junction
-		(at 118.11 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b5593fc-2c7c-4194-bd0c-15b13445f399")
-	)
-	(junction
-		(at 157.48 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ef0dcac-8442-4271-ad88-de242cdb6dcf")
-	)
-	(junction
-		(at 199.39 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55c63e86-eb16-4229-89b9-f391af08cf29")
-	)
-	(junction
-		(at 259.08 134.62)
+		(at 125.73 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5683442d-bf0f-4bb2-a018-832ee0cc93c1")
 	)
 	(junction
-		(at 179.07 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5896498b-7639-49d2-9663-3e4a652dfd5f")
-	)
-	(junction
-		(at 179.07 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59bec693-746a-4f32-9266-17567d6380eb")
-	)
-	(junction
-		(at 76.2 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d7bc298-efef-4f88-867a-84bddf82c5b0")
-	)
-	(junction
-		(at 246.38 142.24)
+		(at 113.03 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67a3ee2d-a816-4930-832c-9361f471dcde")
 	)
 	(junction
-		(at 161.29 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dd4c90d-7efd-4b3c-ab16-7b72d46980a7")
-	)
-	(junction
-		(at 203.2 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7be65844-ad29-449b-a4b6-b03cecfbf2ce")
-	)
-	(junction
-		(at 246.38 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81d504e4-9ab0-4429-bad5-00a965b880dd")
-	)
-	(junction
-		(at 139.7 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86db4f44-a6aa-4ea5-bf5c-a725d29b4ca3")
-	)
-	(junction
-		(at 139.7 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b422d54-c152-4b1b-bc11-af49bd96c9a1")
-	)
-	(junction
-		(at 114.3 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "987ad767-5668-43f3-808d-6de6370dfcd0")
-	)
-	(junction
-		(at 139.7 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "989a694f-0815-4c71-9905-3a6cdd3af128")
-	)
-	(junction
-		(at 53.34 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d571fc9-f089-4477-af70-8b0ee795c928")
-	)
-	(junction
-		(at 96.52 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1343f1b-8e78-4e24-bec4-be8b4c870fa1")
-	)
-	(junction
-		(at 181.61 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aff6b7bf-3e06-4a48-9ed9-a372ebe3c5c6")
-	)
-	(junction
-		(at 50.8 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1e2c6a8-2caa-42e8-97b4-a86127e18072")
-	)
-	(junction
-		(at 203.2 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb3102df-db17-4cd2-becc-0eb6fd669a62")
-	)
-	(junction
-		(at 135.89 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c10302a3-9882-4af6-839d-b7fb36d4eb2c")
-	)
-	(junction
-		(at 161.29 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c17dab3a-be0c-45d2-832e-46139f809880")
-	)
-	(junction
-		(at 203.2 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb8bcad0-c2a9-473c-b94c-61e5caa367bd")
-	)
-	(junction
-		(at 96.52 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7e685de-2241-424a-b241-1737c1a2122c")
-	)
-	(junction
-		(at 76.2 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc87771c-b8c0-4dbf-ba5a-8bd88bc33555")
-	)
-	(junction
-		(at 118.11 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df257f8f-d721-48de-9675-2b8ed1f4210a")
-	)
-	(junction
-		(at 53.34 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8397b6f-26f1-4efd-aa1d-76b214a29910")
-	)
-	(junction
-		(at 259.08 187.96)
+		(at 125.73 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9c71e0f-b4c3-4b42-a8c3-e7b5662d7115")
 	)
-	(junction
-		(at 114.3 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb0221b6-f0c4-42ef-8c28-7ba684095aea")
-	)
-	(junction
-		(at 53.34 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f67eeedd-9d5e-4b97-8113-bcd98061522d")
-	)
-	(junction
-		(at 135.89 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd14eede-da37-436b-8209-b91480dd256d")
-	)
-	(junction
-		(at 93.98 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe59f50e-9443-4b11-a512-e83ed688021c")
-	)
 	(no_connect
-		(at 245.11 123.19)
+		(at 31.75 86.36)
 		(uuid "2a0ba264-d906-453c-a8bd-312c20d1c931")
 	)
 	(no_connect
-		(at 245.11 107.95)
-		(uuid "2c8a30e8-aeb6-4552-b4a7-3609ff661180")
-	)
-	(no_connect
-		(at 271.78 182.88)
-		(uuid "4e0ed205-63cb-4b3a-a1ed-287b1647857e")
-	)
-	(no_connect
-		(at 288.29 119.38)
-		(uuid "4f4e3345-03e4-41aa-a54e-16179a1e5bbc")
-	)
-	(no_connect
-		(at 256.54 187.96)
+		(at 123.19 97.79)
 		(uuid "62a9d583-0b9e-4246-86ad-1c5575830167")
 	)
 	(no_connect
-		(at 269.24 87.63)
+		(at 55.88 50.8)
 		(uuid "66819183-0466-49f7-97db-12a315169c75")
 	)
 	(no_connect
-		(at 288.29 111.76)
-		(uuid "67f2b92f-32af-402b-85ee-c292036746c3")
-	)
-	(no_connect
-		(at 261.62 87.63)
+		(at 48.26 50.8)
 		(uuid "780b68f9-45b1-4c4f-8270-2efe404bcaa1")
 	)
 	(no_connect
-		(at 245.11 104.14)
-		(uuid "7dc5dce5-1cd1-4d48-bc74-cf3d2b92120d")
+		(at 74.93 74.93)
+		(uuid "78ee559d-b94f-4c8f-8302-bdb01988b778")
 	)
 	(no_connect
-		(at 288.29 104.14)
-		(uuid "8e42730d-c207-4ada-821d-eccc18b8fa41")
+		(at 74.93 78.74)
+		(uuid "8c9cb4bb-f37e-46ab-b14f-64ff9d250de7")
 	)
 	(no_connect
-		(at 271.78 180.34)
-		(uuid "91f21ffd-adf3-42ca-a546-2e459455013b")
-	)
-	(no_connect
-		(at 288.29 123.19)
-		(uuid "9f7d4b8d-37ed-4e54-8fc6-969ac763a4b2")
-	)
-	(no_connect
-		(at 273.05 87.63)
-		(uuid "a229484a-dd72-49d0-9bf1-981d0eb0f882")
-	)
-	(no_connect
-		(at 246.38 160.02)
+		(at 113.03 69.85)
 		(uuid "a3622517-b06d-4ce4-9dd3-b182f68b1974")
 	)
 	(no_connect
-		(at 245.11 111.76)
+		(at 31.75 74.93)
 		(uuid "a422071d-06b7-46f1-9c01-1802797353ee")
 	)
 	(no_connect
-		(at 246.38 157.48)
+		(at 113.03 67.31)
 		(uuid "a9971aa3-1cd6-45bc-978a-82ff835fa7bc")
 	)
 	(no_connect
-		(at 245.11 100.33)
-		(uuid "b5e289b7-604e-49db-bf75-a7aa322b9523")
-	)
-	(no_connect
-		(at 264.16 132.08)
+		(at 50.8 95.25)
 		(uuid "cf222050-ff6c-4335-9a2a-7b43841e67a7")
 	)
 	(no_connect
-		(at 288.29 100.33)
+		(at 74.93 63.5)
 		(uuid "d674b848-54a1-4991-bdce-786159534951")
 	)
 	(no_connect
-		(at 265.43 87.63)
+		(at 52.07 50.8)
 		(uuid "dd121d11-08cf-4c31-8278-791b96f598c9")
 	)
-	(no_connect
-		(at 288.29 115.57)
-		(uuid "f5ab9430-8332-49f2-91d8-445cc66e3463")
-	)
 	(wire
 		(pts
-			(xy 114.3 95.25) (xy 114.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097a0324-26f7-4951-9636-0ebafa62f4d5")
-	)
-	(wire
-		(pts
-			(xy 161.29 50.8) (xy 181.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f1a473-221d-4cd0-889f-3c2931450219")
-	)
-	(wire
-		(pts
-			(xy 53.34 50.8) (xy 76.2 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a7d5cfc-dd76-47c3-a5f5-2a23dee35eaa")
-	)
-	(wire
-		(pts
-			(xy 118.11 81.28) (xy 118.11 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b53ca43-108c-48f6-b1f1-faff92b45cda")
-	)
-	(wire
-		(pts
-			(xy 33.02 21.59) (xy 33.02 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "131d9c86-24fd-4790-ac6a-b46c1f11ff12")
-	)
-	(wire
-		(pts
-			(xy 259.08 133.35) (xy 259.08 134.62)
+			(xy 125.73 43.18) (xy 125.73 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2398,37 +1565,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 21.59) (xy 228.6 21.59)
+			(xy 25.4 71.12) (xy 31.75 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cc64963-8e4d-4c3c-af78-224de4e32a28")
+		(uuid "27ab9b7f-9eff-4529-b7f0-518de46570ae")
 	)
 	(wire
 		(pts
-			(xy 76.2 111.76) (xy 76.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e97291-48f9-4354-a913-bd4ef7ac21fa")
-	)
-	(wire
-		(pts
-			(xy 181.61 81.28) (xy 181.61 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a65592-20b7-44b3-846e-b8de140c379e")
-	)
-	(wire
-		(pts
-			(xy 241.3 115.57) (xy 245.11 115.57)
+			(xy 27.94 78.74) (xy 31.75 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2438,107 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 161.29 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29236917-393c-4dbb-8dfa-a6cf7ad2cf33")
-	)
-	(wire
-		(pts
-			(xy 76.2 81.28) (xy 76.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29d6957a-76c1-44ce-a91c-4cd4f6891572")
-	)
-	(wire
-		(pts
-			(xy 33.02 50.8) (xy 53.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aaa80a4-f4d7-4112-9286-5f9fd8c418de")
-	)
-	(wire
-		(pts
-			(xy 203.2 21.59) (xy 203.2 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ac7710e-d9ee-4c67-a2d0-9ec494a3c474")
-	)
-	(wire
-		(pts
-			(xy 53.34 21.59) (xy 76.2 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb7dcdc-bd61-49f8-97e0-bc5399433a15")
-	)
-	(wire
-		(pts
-			(xy 228.6 50.8) (xy 228.6 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d92b606-ec5d-4b2e-8f89-f2c4e4aa2bb7")
-	)
-	(wire
-		(pts
-			(xy 118.11 50.8) (xy 118.11 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecdb917-3278-4a98-80fc-b9844d4b3d4d")
-	)
-	(wire
-		(pts
-			(xy 161.29 21.59) (xy 181.61 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f6f128c-e61d-4265-aa80-d19c470b75d9")
-	)
-	(wire
-		(pts
-			(xy 50.8 63.5) (xy 50.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b96603-991e-4f20-81a3-c14f0d0c4de4")
-	)
-	(wire
-		(pts
-			(xy 203.2 50.8) (xy 228.6 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32bc5195-1eab-4afc-94b6-71eeb1e63f65")
-	)
-	(wire
-		(pts
-			(xy 242.57 182.88) (xy 246.38 182.88)
+			(xy 109.22 92.71) (xy 113.03 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2548,17 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 34.29) (xy 179.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "338e0e54-d7cd-47bf-ad32-024562dd608c")
-	)
-	(wire
-		(pts
-			(xy 242.57 177.8) (xy 246.38 177.8)
+			(xy 109.22 87.63) (xy 113.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2568,67 +1605,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 111.76) (xy 33.02 111.76)
+			(xy 27.94 130.81) (xy 34.29 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e463837-62f8-4d38-9484-e512f45651ff")
+		(uuid "36544edb-f2dd-4df0-b959-92fb64a0eb99")
 	)
 	(wire
 		(pts
-			(xy 118.11 111.76) (xy 118.11 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9317e8-e735-4cde-875e-a22edf37780c")
-	)
-	(wire
-		(pts
-			(xy 246.38 63.5) (xy 246.38 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d2a93f-2487-4022-80be-077c0bd1f396")
-	)
-	(wire
-		(pts
-			(xy 139.7 50.8) (xy 139.7 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41c6d570-2477-4060-8b35-295e6b11fa1b")
-	)
-	(wire
-		(pts
-			(xy 114.3 63.5) (xy 114.3 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "477bd568-06a9-49a1-a575-cb21368708a0")
-	)
-	(wire
-		(pts
-			(xy 93.98 63.5) (xy 93.98 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47ec9b73-7c9a-4b40-aee6-1a1a0a705e37")
-	)
-	(wire
-		(pts
-			(xy 233.68 148.59) (xy 237.49 148.59)
+			(xy 100.33 58.42) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2638,117 +1625,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 34.29) (xy 246.38 63.5)
+			(xy 26.67 63.5) (xy 31.75 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "496d3763-86b3-4378-99f8-9109fc65272f")
+		(uuid "5edf10a5-2116-48d3-990f-ed4abc4d6683")
 	)
 	(wire
 		(pts
-			(xy 179.07 63.5) (xy 179.07 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a3f472e-0d27-4909-a99c-f7f64fe017f0")
-	)
-	(wire
-		(pts
-			(xy 71.12 63.5) (xy 71.12 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dba07f2-d0ce-4ad0-8b85-4197be463eb6")
-	)
-	(wire
-		(pts
-			(xy 118.11 21.59) (xy 96.52 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5160a2b4-abc4-48fc-a9a4-1202d305ea47")
-	)
-	(wire
-		(pts
-			(xy 161.29 81.28) (xy 181.61 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520550ba-b0f7-4853-b4f7-1f0510b17f10")
-	)
-	(wire
-		(pts
-			(xy 118.11 81.28) (xy 139.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5661d2b2-5c8b-4d08-8b9c-3a00333f2b9e")
-	)
-	(wire
-		(pts
-			(xy 93.98 34.29) (xy 93.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b97ed6-a297-43be-9eca-c45a2e82849d")
-	)
-	(wire
-		(pts
-			(xy 33.02 50.8) (xy 33.02 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac534a5-43ce-4925-9646-ef1f6749d1e6")
-	)
-	(wire
-		(pts
-			(xy 181.61 50.8) (xy 181.61 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc0d2ef-496f-45e4-a7f3-29a2091815d5")
-	)
-	(wire
-		(pts
-			(xy 96.52 50.8) (xy 118.11 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd08f49-e700-4a07-aa33-2e728f249faf")
-	)
-	(wire
-		(pts
-			(xy 118.11 21.59) (xy 118.11 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f360c66-bfe7-4d25-bcee-26483a705336")
-	)
-	(wire
-		(pts
-			(xy 246.38 137.16) (xy 246.38 142.24)
+			(xy 113.03 46.99) (xy 113.03 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2758,137 +1645,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 21.59) (xy 76.2 34.29)
+			(xy 27.94 133.35) (xy 34.29 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64ce40a4-efe4-49e8-b948-a833abd7fd5f")
+		(uuid "71a7c074-cb01-4ac4-b2dc-6e05d78d8d91")
 	)
 	(wire
 		(pts
-			(xy 139.7 111.76) (xy 118.11 111.76)
+			(xy 26.67 67.31) (xy 31.75 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67d796b9-409e-446d-87c0-529a5f263cfb")
+		(uuid "77b5003b-81aa-4967-b581-8e485268619a")
 	)
 	(wire
 		(pts
-			(xy 181.61 50.8) (xy 203.2 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e3677c-c8c3-4ebf-9bd9-a394c401853c")
-	)
-	(wire
-		(pts
-			(xy 118.11 21.59) (xy 139.7 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e89fae-41e0-436c-8f2b-2d6ff83d9ff4")
-	)
-	(wire
-		(pts
-			(xy 93.98 95.25) (xy 93.98 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "696f141d-883d-4488-85a4-25bcc2616e7e")
-	)
-	(wire
-		(pts
-			(xy 135.89 34.29) (xy 135.89 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4cbfa9-49f8-4744-b5b4-b2e4263719ba")
-	)
-	(wire
-		(pts
-			(xy 50.8 95.25) (xy 50.8 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cdeb8c7-66a2-47c0-9def-c58dc21b2332")
-	)
-	(wire
-		(pts
-			(xy 53.34 50.8) (xy 53.34 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ac9cca-2514-423e-9d7a-86bfc30f8d12")
-	)
-	(wire
-		(pts
-			(xy 181.61 21.59) (xy 181.61 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74e4a9e9-b577-46e3-970b-e8a5be4ace8c")
-	)
-	(wire
-		(pts
-			(xy 139.7 50.8) (xy 161.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b467fe-ca1d-47f9-97be-114bd8b51c00")
-	)
-	(wire
-		(pts
-			(xy 114.3 34.29) (xy 114.3 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78596ed7-649b-404e-85a1-95cff7248bc3")
-	)
-	(wire
-		(pts
-			(xy 33.02 81.28) (xy 33.02 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7890f059-6a5c-4d2d-beb4-3b2ea8c4f98a")
-	)
-	(wire
-		(pts
-			(xy 96.52 50.8) (xy 76.2 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c73af5b-901d-4f2f-853f-21484c963ec1")
-	)
-	(wire
-		(pts
-			(xy 243.84 144.78) (xy 246.38 144.78)
+			(xy 110.49 54.61) (xy 113.03 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2898,27 +1675,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 21.59) (xy 33.02 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ccc44e5-d1c6-4c3d-8067-4c98ad966bda")
-	)
-	(wire
-		(pts
-			(xy 199.39 63.5) (xy 199.39 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d304c71-d44b-4f2a-82e2-ef4b043ccd9e")
-	)
-	(wire
-		(pts
-			(xy 233.68 137.16) (xy 237.49 137.16)
+			(xy 100.33 46.99) (xy 104.14 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2928,47 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 53.34 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85de4491-916e-4337-9efe-9cbd252b9bd2")
-	)
-	(wire
-		(pts
-			(xy 139.7 111.76) (xy 139.7 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "864805b8-9034-4389-ab46-41f726760c3a")
-	)
-	(wire
-		(pts
-			(xy 161.29 50.8) (xy 161.29 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86aee742-bd9c-428a-b2d3-3d2c2088f38c")
-	)
-	(wire
-		(pts
-			(xy 139.7 34.29) (xy 139.7 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86f0f25a-5456-401f-a433-83f0e9497e9d")
-	)
-	(wire
-		(pts
-			(xy 243.84 142.24) (xy 246.38 142.24)
+			(xy 110.49 52.07) (xy 113.03 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2978,37 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 111.76) (xy 53.34 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a39370d-f9e0-4957-860c-d1f28b782c18")
-	)
-	(wire
-		(pts
-			(xy 139.7 81.28) (xy 161.29 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f5a471-11ad-4667-84c5-9686fb480a23")
-	)
-	(wire
-		(pts
-			(xy 96.52 111.76) (xy 96.52 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91214bda-83ef-4fff-82b9-4346f7d7157d")
-	)
-	(wire
-		(pts
-			(xy 267.97 135.89) (xy 267.97 132.08)
+			(xy 54.61 99.06) (xy 54.61 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3018,27 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 111.76) (xy 96.52 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92243f35-a8f1-451b-b886-c8033dc9f8f3")
-	)
-	(wire
-		(pts
-			(xy 161.29 111.76) (xy 161.29 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e62cd4-14f6-438e-ab77-d8ac8d62c39a")
-	)
-	(wire
-		(pts
-			(xy 241.3 119.38) (xy 245.11 119.38)
+			(xy 27.94 82.55) (xy 31.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3048,137 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 157.48 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bcec97a-2d91-4c0c-8e17-f0dc8f66bd86")
-	)
-	(wire
-		(pts
-			(xy 96.52 21.59) (xy 96.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f64de0a-4a9b-4e3a-9e9d-7ae791fcafbd")
-	)
-	(wire
-		(pts
-			(xy 96.52 21.59) (xy 76.2 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a891d6-6e11-4321-9bc8-ddb141b8ca36")
-	)
-	(wire
-		(pts
-			(xy 220.98 63.5) (xy 220.98 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7169e00-ad34-4172-beb1-250b11151ba2")
-	)
-	(wire
-		(pts
-			(xy 139.7 81.28) (xy 139.7 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abdbf3b3-1274-4ed5-8913-2cb558362dd2")
-	)
-	(wire
-		(pts
-			(xy 33.02 111.76) (xy 33.02 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad5b16eb-739f-4bec-aa65-f8c04ec37a22")
-	)
-	(wire
-		(pts
-			(xy 96.52 50.8) (xy 96.52 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad97f2fa-c11e-4b62-b420-62547a959fad")
-	)
-	(wire
-		(pts
-			(xy 157.48 63.5) (xy 157.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add559d2-82e1-4cce-bcf1-2193e05a5bc4")
-	)
-	(wire
-		(pts
-			(xy 246.38 95.25) (xy 245.11 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade16c14-aa28-4ebb-aa81-e1ab69aa693d")
-	)
-	(wire
-		(pts
-			(xy 50.8 34.29) (xy 50.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af98915c-4692-444e-886a-baf6e8cc0540")
-	)
-	(wire
-		(pts
-			(xy 135.89 95.25) (xy 135.89 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b296a7f9-14c9-4cb1-94d7-aa86225e469f")
-	)
-	(wire
-		(pts
-			(xy 96.52 111.76) (xy 76.2 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ff80fe-c45f-4262-b456-e713fb48b6d1")
-	)
-	(wire
-		(pts
-			(xy 76.2 81.28) (xy 96.52 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b462802b-b053-46db-8fa6-36e093188676")
-	)
-	(wire
-		(pts
-			(xy 245.11 148.59) (xy 246.38 148.59)
+			(xy 111.76 58.42) (xy 113.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3188,17 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 21.59) (xy 53.34 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e1b8d2-dfa1-4f2d-a636-6471e2cb424a")
-	)
-	(wire
-		(pts
-			(xy 240.03 168.91) (xy 238.76 168.91)
+			(xy 106.68 78.74) (xy 105.41 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3208,47 +1735,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 33.02 81.28)
+			(xy 27.94 125.73) (xy 34.29 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7d23ecb-dace-4498-af41-1639dc1797b4")
+		(uuid "c05ccc17-d209-4954-91df-190e2bc04e7e")
 	)
 	(wire
 		(pts
-			(xy 139.7 21.59) (xy 161.29 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94e68a6-3a3b-4f91-97a8-07a33bc64fc8")
-	)
-	(wire
-		(pts
-			(xy 71.12 34.29) (xy 71.12 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baeb0206-77b7-4733-b80a-71e2b9618847")
-	)
-	(wire
-		(pts
-			(xy 181.61 21.59) (xy 203.2 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea1773d-d037-4065-a53f-1a127d34b594")
-	)
-	(wire
-		(pts
-			(xy 246.38 148.59) (xy 246.38 144.78)
+			(xy 113.03 58.42) (xy 113.03 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3258,37 +1755,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 76.2 81.28)
+			(xy 27.94 128.27) (xy 34.29 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c30e79c9-227c-4924-b0a1-39617bdaa108")
+		(uuid "c665f3a9-b1f2-4236-a8a1-9203b6628207")
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 96.52 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d349b8-9205-4204-b241-f57176bbde8c")
-	)
-	(wire
-		(pts
-			(xy 161.29 21.59) (xy 161.29 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a40a67-4363-4973-acf1-30b8b0e3a2c1")
-	)
-	(wire
-		(pts
-			(xy 242.57 180.34) (xy 246.38 180.34)
+			(xy 109.22 90.17) (xy 113.03 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3298,37 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 34.29) (xy 157.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9349c02-0f08-4287-a6e3-f3518f751187")
-	)
-	(wire
-		(pts
-			(xy 96.52 81.28) (xy 118.11 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb77fdd7-073c-4416-bc6c-1d67807dccf1")
-	)
-	(wire
-		(pts
-			(xy 203.2 50.8) (xy 203.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf1d0bc5-1c01-4d16-85ae-4b8f5329919e")
-	)
-	(wire
-		(pts
-			(xy 257.81 134.62) (xy 259.08 134.62)
+			(xy 124.46 44.45) (xy 125.73 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3338,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 134.62) (xy 259.08 137.16)
+			(xy 125.73 44.45) (xy 125.73 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3348,27 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 50.8) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d606dd61-0841-4618-ae9e-1ee1415364c3")
-	)
-	(wire
-		(pts
-			(xy 53.34 111.76) (xy 53.34 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a606b6-78d7-4208-8797-213aef758187")
-	)
-	(wire
-		(pts
-			(xy 238.76 168.91) (xy 238.76 165.1)
+			(xy 105.41 78.74) (xy 105.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3378,67 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 34.29) (xy 199.39 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da33a1ef-e3c3-4e8d-9621-2726a1887930")
-	)
-	(wire
-		(pts
-			(xy 203.2 81.28) (xy 203.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da437cf3-b3e9-434d-b53b-5e017aa850be")
-	)
-	(wire
-		(pts
-			(xy 76.2 50.8) (xy 76.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dada5d40-43b2-468c-a205-686d9b3901cb")
-	)
-	(wire
-		(pts
-			(xy 181.61 81.28) (xy 203.2 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbee50ce-09ed-4929-9d86-5b6fb15adc61")
-	)
-	(wire
-		(pts
-			(xy 139.7 111.76) (xy 161.29 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce31f0d-be9e-4e8d-99bc-0884b93ab5eb")
-	)
-	(wire
-		(pts
-			(xy 179.07 95.25) (xy 179.07 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddf937b4-909b-4f40-858e-b78fc00f886c")
-	)
-	(wire
-		(pts
-			(xy 261.62 187.96) (xy 259.08 187.96)
+			(xy 128.27 97.79) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3448,67 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 81.28) (xy 227.33 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3bf6ea0-dbe6-4f47-85b6-40dd6a687aa0")
-	)
-	(wire
-		(pts
-			(xy 220.98 34.29) (xy 220.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e79694f1-0f65-4901-b59a-dbd0606de00f")
-	)
-	(wire
-		(pts
-			(xy 228.6 21.59) (xy 228.6 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef51edbd-9645-4e0a-963f-1e28d6f98bb4")
-	)
-	(wire
-		(pts
-			(xy 71.12 95.25) (xy 71.12 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4c7d988-03a5-4265-bff8-e452a0105a1c")
-	)
-	(wire
-		(pts
-			(xy 135.89 63.5) (xy 135.89 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ec2947-6bbf-4dc9-a8e7-c5bd6ab6f5da")
-	)
-	(wire
-		(pts
-			(xy 227.33 81.28) (xy 227.33 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0bcff1-2e4b-4590-89e7-54242e7db5e4")
-	)
-	(wire
-		(pts
-			(xy 245.11 137.16) (xy 246.38 137.16)
+			(xy 111.76 46.99) (xy 113.03 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3516,18 +1823,18 @@
 		)
 		(uuid "ff676949-8c1a-40c6-b7f7-a9a61bc93ba7")
 	)
-	(label "Col10"
-		(at 246.38 82.55 0)
+	(label "JOY_X"
+		(at 161.29 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "03208728-bb36-4eda-8972-a896e29c37d1")
+		(uuid "061976ca-2507-4253-b376-8d49f30692db")
 	)
-	(label "Col3"
-		(at 271.78 157.48 0)
+	(label "COL3"
+		(at 138.43 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3536,8 +1843,8 @@
 		)
 		(uuid "06be9e84-bcb5-494b-8b4a-1b4042806d42")
 	)
-	(label "sda"
-		(at 241.3 115.57 0)
+	(label "SDA"
+		(at 27.94 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3546,8 +1853,8 @@
 		)
 		(uuid "0b3a607c-6c48-4562-acc3-a3f3901cfd4b")
 	)
-	(label "Gnd"
-		(at 242.57 180.34 0)
+	(label "GND"
+		(at 109.22 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3556,18 +1863,38 @@
 		)
 		(uuid "1049598b-e698-4c69-997e-846c71d22712")
 	)
-	(label "Col7"
-		(at 179.07 127 0)
+	(label "GND"
+		(at 59.69 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "19e34aa8-b022-45b8-80f9-1bd2490c5f7d")
+		(uuid "1524ec70-100d-4c54-b308-96d8c226b28b")
 	)
-	(label "Gnd"
-		(at 242.57 182.88 0)
+	(label "SCL"
+		(at 49.53 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19267103-1087-423f-8513-2bc76ed7bcc8")
+	)
+	(label "JOY_Y"
+		(at 161.29 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a770253-2ca9-4119-9940-f414671e5cd1")
+	)
+	(label "GND"
+		(at 109.22 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,8 +1903,18 @@
 		)
 		(uuid "1b1b60ea-4e3e-4764-83ee-29265b54aef5")
 	)
-	(label "Col1"
-		(at 271.78 152.4 0)
+	(label "JOY_Y"
+		(at 26.67 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21ad379a-744c-4b1b-8f08-d29f587061db")
+	)
+	(label "COL1"
+		(at 138.43 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3586,28 +1923,18 @@
 		)
 		(uuid "2476f924-6d68-4f18-a0f9-4f29b7842a7e")
 	)
-	(label "Col3"
-		(at 93.98 127 0)
+	(label "COL3"
+		(at 92.71 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "24bec4b0-d4c4-4d5f-bcda-570dfa1498b8")
-	)
-	(label "Col1"
-		(at 50.8 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "268caf22-9c63-49a7-aaf4-677471c4fc69")
+		(uuid "252afeca-a7dd-43e7-bf3d-8beb8da5ea71")
 	)
 	(label "3.3V"
-		(at 288.29 107.95 0)
+		(at 74.93 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3616,18 +1943,8 @@
 		)
 		(uuid "2d83abea-fce4-42b3-897a-376926993d5f")
 	)
-	(label "R3"
-		(at 33.02 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31b2e974-55b1-47b6-8fe2-4cdd7998f228")
-	)
-	(label "Gnd"
-		(at 242.57 177.8 0)
+	(label "GND"
+		(at 109.22 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3636,8 +1953,8 @@
 		)
 		(uuid "4c60d5d5-5341-4e11-bac3-9071b1bd1af7")
 	)
-	(label "Col9"
-		(at 271.78 175.26 0)
+	(label "COL9"
+		(at 138.43 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3646,18 +1963,8 @@
 		)
 		(uuid "4e8e5c67-0dab-44e1-adbd-fa1b7e1c704d")
 	)
-	(label "Col6"
-		(at 157.48 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50c49373-2d04-4789-80d1-70ac3ff75a0c")
-	)
-	(label "Col5"
-		(at 271.78 165.1 0)
+	(label "COL5"
+		(at 138.43 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3667,7 +1974,7 @@
 		(uuid "52aa05b7-631a-4acd-b647-a222a786e323")
 	)
 	(label "3.3V"
-		(at 240.03 168.91 0)
+		(at 106.68 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3676,8 +1983,58 @@
 		)
 		(uuid "5760dcb2-a282-429a-b194-0300916bc2f3")
 	)
-	(label "R4"
-		(at 271.78 149.86 0)
+	(label "JRIGHT_CLICK"
+		(at 74.93 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63682334-2cb3-410c-a945-60f21ec7b7d2")
+	)
+	(label "COL6"
+		(at 92.71 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d0b3932-a24b-4d43-adca-b296c3e8b55d")
+	)
+	(label "ROW3"
+		(at 27.94 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70413982-4cc8-4d7a-8593-57e4da168280")
+	)
+	(label "3.3V"
+		(at 49.53 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77e4e7a9-81db-49d3-a1ef-3f41b245aada")
+	)
+	(label "COL9"
+		(at 92.71 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79cd9ba9-3dac-48b0-aa73-0a9bf8a71ce1")
+	)
+	(label "ROW4"
+		(at 138.43 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3686,8 +2043,8 @@
 		)
 		(uuid "7d0df7c8-28d5-4f70-b323-822915edefae")
 	)
-	(label "Gnd"
-		(at 261.62 187.96 0)
+	(label "GND"
+		(at 128.27 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3696,28 +2053,8 @@
 		)
 		(uuid "8162ee41-230a-4acb-a68a-91cd64ffb1ad")
 	)
-	(label "Col9"
-		(at 220.98 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84a677a9-bd5a-48ff-a39e-ec3e579c6016")
-	)
-	(label "Col2"
-		(at 71.12 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8516f1a2-1dc5-4385-b2ab-0e04ba9c1613")
-	)
-	(label "R3"
-		(at 271.78 147.32 0)
+	(label "ROW3"
+		(at 138.43 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3726,18 +2063,8 @@
 		)
 		(uuid "85561700-8e01-4ce3-84ba-1d489fa97a75")
 	)
-	(label "R1"
-		(at 33.02 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85f47300-f558-4e52-9a4f-384afb7d9667")
-	)
 	(label "3.3V"
-		(at 233.68 137.16 0)
+		(at 100.33 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3746,28 +2073,38 @@
 		)
 		(uuid "90181d9e-a70c-4db2-8fa9-f9e5c6c4fa8f")
 	)
-	(label "R4"
-		(at 33.02 111.76 0)
+	(label "COL10"
+		(at 92.71 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "90820d51-f1ce-449d-bc8a-cb11c27e2ec5")
+		(uuid "9065ffd4-c43d-4901-823d-49cf70c93a88")
 	)
-	(label "Col4"
-		(at 114.3 127 0)
+	(label "GND"
+		(at 161.29 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "97b859ab-e86e-4317-baaa-ee234ad0e2ec")
+		(uuid "93795609-8ff9-4bda-ac99-80b6a04449b3")
 	)
-	(label "Col7"
-		(at 271.78 170.18 0)
+	(label "COL1"
+		(at 92.71 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0f622a7-861f-4ae0-9dbe-9a99dce5f327")
+	)
+	(label "COL7"
+		(at 138.43 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3776,28 +2113,78 @@
 		)
 		(uuid "a1d08863-2037-413d-a94e-01572ccfd2a8")
 	)
-	(label "Col8"
-		(at 199.39 95.25 0)
+	(label "COL7"
+		(at 92.71 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b18a2973-bdde-4dc0-8396-6c027a93529f")
+		(uuid "a4091f52-fa52-4d63-a26e-f5217118a1ff")
 	)
-	(label "Col5"
-		(at 135.89 127 0)
+	(label "JLEFT_CLICK"
+		(at 74.93 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b2bc30e2-cbf3-4579-b774-2f319e0da200")
+		(uuid "a42f418a-9446-4d77-adbd-6d40fc5e9352")
 	)
-	(label "Gnd"
-		(at 250.19 134.62 0)
+	(label "JLEFT_CLICK"
+		(at 161.29 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4443088-82a4-4e83-ab99-fe3e0486acfc")
+	)
+	(label "JOY_SW"
+		(at 25.4 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b54f42d0-f72e-452f-bd2c-d818380891e4")
+	)
+	(label "ROW2"
+		(at 27.94 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b58fe780-2bcc-48a8-ba47-15778f73226c")
+	)
+	(label "GND"
+		(at 74.93 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6d8e545-1ec5-4ee9-9d25-400cd0fa8d86")
+	)
+	(label "SDA"
+		(at 49.53 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb647a6e-c08a-4716-9b45-b4c4fcf5f546")
+	)
+	(label "GND"
+		(at 116.84 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3807,7 +2194,7 @@
 		(uuid "bd7622e6-14b3-495d-9392-e8cb675ebe3a")
 	)
 	(label "3.3V"
-		(at 259.08 133.35 0)
+		(at 125.73 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3816,8 +2203,8 @@
 		)
 		(uuid "be9a04d2-ed92-43ae-8fe0-9b82e9fc77fb")
 	)
-	(label "R2"
-		(at 271.78 144.78 0)
+	(label "ROW2"
+		(at 138.43 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3826,8 +2213,8 @@
 		)
 		(uuid "c0b161b4-73ac-4de7-ba7e-d847586e110e")
 	)
-	(label "Col4"
-		(at 271.78 160.02 0)
+	(label "COL4"
+		(at 138.43 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3836,8 +2223,18 @@
 		)
 		(uuid "c471c7a5-d93b-4a61-aa2f-3e195c88b9d8")
 	)
-	(label "sda"
-		(at 243.84 144.78 0)
+	(label "COL8"
+		(at 92.71 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e751f5-b0b6-498e-bbca-93d1d6c84090")
+	)
+	(label "SDA"
+		(at 110.49 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3846,8 +2243,18 @@
 		)
 		(uuid "cbd7f671-f961-4629-89d1-12341579f229")
 	)
-	(label "sck"
-		(at 243.84 142.24 0)
+	(label "ROW1"
+		(at 27.94 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd1eabfa-3d93-48d4-b8de-254c685e9e84")
+	)
+	(label "SCL"
+		(at 110.49 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3856,8 +2263,38 @@
 		)
 		(uuid "d123ed58-1290-4dc8-8858-8dae1e379658")
 	)
-	(label "R1"
-		(at 271.78 142.24 0)
+	(label "GND"
+		(at 49.53 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d29bc6d4-b4f4-43bd-a82f-7d3bad599f87")
+	)
+	(label "COL4"
+		(at 92.71 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4a26840-4d82-4a63-9216-a5798c83c74c")
+	)
+	(label "JOY_SW"
+		(at 161.29 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8dd605c-95c2-4c14-96b0-9fb8381ed97d")
+	)
+	(label "ROW1"
+		(at 138.43 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3866,8 +2303,28 @@
 		)
 		(uuid "da7bcb39-92b9-4923-bbca-2ee26254ad88")
 	)
-	(label "Col2"
-		(at 271.78 154.94 0)
+	(label "ROW4"
+		(at 27.94 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc9886c5-113e-472f-b32f-8cf8a743ba20")
+	)
+	(label "JRIGHT_CLICK"
+		(at 161.29 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd4e1a2b-836b-410a-b374-dfe8f6b31475")
+	)
+	(label "COL2"
+		(at 138.43 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3876,8 +2333,18 @@
 		)
 		(uuid "de1eb150-f6a3-4c10-827f-83fd95eda152")
 	)
-	(label "Gnd"
-		(at 267.97 135.89 0)
+	(label "COL5"
+		(at 92.71 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dec6b8ff-086c-40c9-8caf-982410d458d8")
+	)
+	(label "GND"
+		(at 54.61 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3886,8 +2353,18 @@
 		)
 		(uuid "e0a5e325-bf3e-437d-a395-4d0a57da510e")
 	)
-	(label "Col6"
-		(at 271.78 167.64 0)
+	(label "COL2"
+		(at 92.71 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea7fa8fe-818d-437f-844f-8343fbe4d2f6")
+	)
+	(label "COL6"
+		(at 138.43 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3896,8 +2373,8 @@
 		)
 		(uuid "ee587a86-69c4-4a49-b4a5-de3641847cb4")
 	)
-	(label "Col8"
-		(at 271.78 172.72 0)
+	(label "COL8"
+		(at 138.43 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3906,8 +2383,18 @@
 		)
 		(uuid "f46fcd4b-4c8d-42cd-ba06-238f4dffad13")
 	)
-	(label "Col10"
-		(at 271.78 177.8 0)
+	(label "JOY_X"
+		(at 26.67 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8806e7c-2089-4188-8e5b-5918b97df657")
+	)
+	(label "COL10"
+		(at 138.43 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3916,8 +2403,8 @@
 		)
 		(uuid "f8f3ec3a-6942-452d-8761-558fab29e2d4")
 	)
-	(label "sck"
-		(at 241.3 119.38 0)
+	(label "SCL"
+		(at 27.94 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3926,18 +2413,18 @@
 		)
 		(uuid "facf0bd4-8fc6-4752-82a1-c47ec8019703")
 	)
-	(label "R2"
-		(at 33.02 50.8 0)
+	(label "3.3V"
+		(at 161.29 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fc40aebd-2a01-4f3c-8644-fa2bce66e6f3")
+		(uuid "fd23e2b0-c83a-4df9-a743-1b25bf025d4a")
 	)
 	(label "3.3V"
-		(at 233.68 148.59 0)
+		(at 100.33 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3947,895 +2434,8 @@
 		(uuid "ff1339ce-385c-41da-b91e-5038db4d3a84")
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 217.17 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "005edd41-6efc-4c17-a34a-1ff4201b3282")
-		(property "Reference" "D9"
-			(at 215.138 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 213.614 40.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 217.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 217.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 217.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "438c5c04-ab78-4de2-aac7-c2d65476f4b3")
-		)
-		(pin "2"
-			(uuid "2f9e35d9-b463-4c0e-be0b-43305d10aaa6")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 123.19 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e9a52e3-2aea-4ddc-99a2-49c79e30dc57")
-		(property "Reference" "B1"
-			(at 123.19 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 123.19 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 123.19 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1c3d6eb-ec03-491c-8db4-96f7da57c0a5")
-		)
-		(pin "2"
-			(uuid "97bdd009-5f98-4824-bcd1-990259897f37")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 242.57 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fb7fd17-9da3-40bd-b4fe-dc207e341764")
-		(property "Reference" "D10"
-			(at 242.57 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 242.57 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 242.57 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 242.57 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 242.57 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 242.57 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0bbfcec-45f5-434e-bf82-39c5a21bcc20")
-		)
-		(pin "2"
-			(uuid "1f4033b6-dd39-47f1-885a-e47688686867")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14043ca4-d814-4e73-868d-59e1304cf003")
-		(property "Reference" "SW29"
-			(at 38.1 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 38.1 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 38.1 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 38.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7fa73a20-d5a1-4634-95bf-fd3c481c24b1")
-		)
-		(pin "2"
-			(uuid "d8472011-5101-43f2-b76c-3b39bd68c9e1")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "SW29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 153.67 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1af31956-4ba8-4f17-964d-45c8f0500c5f")
-		(property "Reference" "D6"
-			(at 153.67 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 153.67 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 153.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 153.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 153.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 153.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 153.67 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e861c20c-aacc-4d28-b0cf-f05006759788")
-		)
-		(pin "2"
-			(uuid "f123ad58-13c1-4590-8549-c44987f3c9dc")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 46.99 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22ac36e8-5c65-4791-9678-b47aac9b150c")
-		(property "Reference" "D11"
-			(at 46.99 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 46.99 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 46.99 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 46.99 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 46.99 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43b271b6-dfbd-48f3-be3a-8977e3a6fdc0")
-		)
-		(pin "2"
-			(uuid "cd24a2a9-6aa5-4d8d-9c89-2afd7c01d6c3")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 101.6 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24915ee3-4086-44eb-b4cc-c82fe262d453")
-		(property "Reference" "V1"
-			(at 101.6 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 101.6 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 101.6 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d070357-35fb-4d6f-85e6-de9d9439202c")
-		)
-		(pin "2"
-			(uuid "3eac0606-5b18-4496-8cab-c64da9d2d558")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 233.68 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27cb8c15-7c93-48ee-8803-4ce27265eee0")
-		(property "Reference" "P1"
-			(at 233.68 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 233.68 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 233.68 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 233.68 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aca96a5f-04ad-40d9-9f89-c6aa5f780302")
-		)
-		(pin "2"
-			(uuid "8706fb17-1d30-4a56-9547-f67109b4befa")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 81.28 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "290d9d48-1e36-4323-bf3a-8d32943afa48")
-		(property "Reference" "C2"
-			(at 81.28 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 81.28 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 81.28 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3688b80-5549-4ad9-9f11-0f96202b8dae")
-		)
-		(pin "2"
-			(uuid "8597efd6-90ae-4938-89a2-2a396a1f1660")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 232.41 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b5ca248-169b-4afe-a90e-2e86f3824afc")
-		(property "Reference" "Shift1"
-			(at 232.41 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 232.41 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 232.41 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 232.41 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bf98e4e8-a297-4062-8429-8759609305d5")
-		)
-		(pin "1"
-			(uuid "97404bd6-5ca8-443d-91e4-cb6426223f71")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "Shift1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 241.3 137.16 90)
+		(at 107.95 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4846,7 +2446,7 @@
 		(fields_autoplaced yes)
 		(uuid "3104217b-5c8e-4cf5-9dab-bc8191d14c5d")
 		(property "Reference" "R2"
-			(at 241.3 130.81 90)
+			(at 107.95 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4856,7 +2456,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 241.3 133.35 90)
+			(at 107.95 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4866,7 +2466,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 241.3 138.938 90)
+			(at 107.95 48.768 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4877,7 +2477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 137.16 0)
+			(at 107.95 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,7 +2488,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 137.16 0)
+			(at 107.95 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,678 +2514,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32b03656-8ef7-48ae-9921-d8eb21c15f17")
-		(property "Reference" "Y1"
-			(at 144.78 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 144.78 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 144.78 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96c74734-5889-4029-bdba-27dfcc42f60c")
-		)
-		(pin "2"
-			(uuid "9fcfd3ec-1755-42bd-b3c2-e1a417932d46")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 90.17 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3323dad6-ffd0-4f15-a437-7c36b4c585ad")
-		(property "Reference" "D13"
-			(at 90.17 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 90.17 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 90.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 90.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 90.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e1c9aa9-623d-4335-8a13-fa72308e345b")
-		)
-		(pin "2"
-			(uuid "fb72e69c-f523-461d-9390-9962d38c4217")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 153.67 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36688be9-e10b-400a-851b-e2b131df8efd")
-		(property "Reference" "D25"
-			(at 153.67 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 153.67 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 153.67 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 153.67 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 153.67 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 153.67 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 153.67 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d129f5c3-dc31-4c88-ab34-ad81858fe25d")
-		)
-		(pin "2"
-			(uuid "34481f70-a8d5-47f3-9888-003b4e7b9b1d")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b04dc32-6bfa-4f5c-ad2c-f294ea498d63")
-		(property "Reference" "A1"
-			(at 38.1 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 38.1 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 38.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 38.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66d8820c-c931-421c-8188-cd1309f3b134")
-		)
-		(pin "2"
-			(uuid "99061e80-be22-4e75-8186-2bab9299974c")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 110.49 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "425a26d6-74cc-4e3c-a9ec-c0b161b77f5a")
-		(property "Reference" "D4"
-			(at 110.49 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 110.49 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 110.49 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 110.49 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 110.49 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 110.49 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a89fb63c-42b3-4747-a83f-83d492bd6938")
-		)
-		(pin "2"
-			(uuid "0f86e38a-bbe1-43ad-967b-af1c05a8bdb8")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 110.49 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49965704-51fe-48c2-9316-1f32aa4a925d")
-		(property "Reference" "D23"
-			(at 110.49 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 110.49 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 110.49 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 110.49 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 110.49 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 110.49 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fcca8b7-9eb6-47cc-a6f7-4e309909029a")
-		)
-		(pin "2"
-			(uuid "d112fb5e-ec2a-44da-b26c-ac1b4b23ba0e")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 217.17 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a605788-8f92-468e-b27b-4ba0afa846dc")
-		(property "Reference" "D28"
-			(at 217.17 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 217.17 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 217.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 217.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 217.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "511bfcb2-5f37-4dcd-9d27-9253e2aa0e05")
-		)
-		(pin "2"
-			(uuid "7f5c3f4e-5808-48f0-ab04-f16e7d35696e")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed_Studio_XIAO_Series:XIAO-RP2040-SMD")
-		(at 266.7 101.6 0)
+		(at 53.34 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5595,7 +2525,7 @@
 		(dnp no)
 		(uuid "4aa41f25-58c4-45a9-86d8-7c0ceab34e4b")
 		(property "Reference" "U1"
-			(at 270.1133 132.08 0)
+			(at 56.7533 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5606,7 +2536,7 @@
 			)
 		)
 		(property "Value" "XIAO-RP2040-SMD"
-			(at 256.286 122.174 0)
+			(at 42.926 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5617,7 +2547,7 @@
 			)
 		)
 		(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-RP2040-SMD"
-			(at 271.018 131.572 0)
+			(at 57.658 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,7 +2558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 96.52 0)
+			(at 44.45 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5639,7 +2569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 101.6 0)
+			(at 53.34 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5719,452 +2649,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 242.57 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f187ef1-37d0-46e1-9d33-785cdf221521")
-		(property "Reference" "D36"
-			(at 242.57 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 242.57 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b1a2a32-5d04-4fb6-9862-aa1839641952")
-		)
-		(pin "2"
-			(uuid "a390a156-8920-48d2-99c7-0d709f361ab8")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 81.28 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fa05abe-549b-43a9-9d53-e7b75b819796")
-		(property "Reference" "E1"
-			(at 81.28 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 81.28 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 81.28 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 81.28 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15837082-ef01-4880-8c10-64a12ae30215")
-		)
-		(pin "2"
-			(uuid "31c9209d-3aa3-4c39-80be-4579ba624814")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "E1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 166.37 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5489be5d-7e7f-47d2-9f66-ab8f1160bfbb")
-		(property "Reference" "U3"
-			(at 166.37 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 166.37 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 166.37 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 166.37 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42292cb0-5810-4ada-9e82-7321258b8377")
-		)
-		(pin "2"
-			(uuid "c8783ff6-c1fe-46bd-aeda-a3e3e5ad7b6d")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 81.28 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54981663-936f-42d2-8ee6-03949ffb0768")
-		(property "Reference" "D38"
-			(at 81.28 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 81.28 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 81.28 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 81.28 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc18d1b9-298f-48f9-8a70-e5586e698af9")
-		)
-		(pin "2"
-			(uuid "86d4958d-fb00-4881-b229-70998fc0c2bf")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 175.26 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e872d90-39ed-4ce2-bca0-6e8d187ce505")
-		(property "Reference" "D26"
-			(at 175.26 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 175.26 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 175.26 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 175.26 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 175.26 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78beac42-41ba-408a-b831-7dac076c1891")
-		)
-		(pin "2"
-			(uuid "1c3d8062-011a-4067-8b68-5c0b317daf0f")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 242.57 165.1 90)
+		(at 109.22 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6174,7 +2660,7 @@
 		(dnp no)
 		(uuid "5f4a334e-42c6-41ed-bd71-eb93f52c8fff")
 		(property "Reference" "R1"
-			(at 246.38 166.116 90)
+			(at 113.03 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6184,7 +2670,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 242.316 165.1 90)
+			(at 108.966 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6194,7 +2680,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 242.57 166.878 90)
+			(at 109.22 76.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6205,7 +2691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 165.1 0)
+			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6216,7 +2702,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 165.1 0)
+			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6242,248 +2728,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 208.28 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "623ac6a1-ea4d-400a-84a8-b9d45c6a195d")
-		(property "Reference" "O1"
-			(at 208.28 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 208.28 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 208.28 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a916c7c-9dfe-4f67-91a1-279caf08610e")
-		)
-		(pin "2"
-			(uuid "c79b1902-b9ee-4068-ba64-b1ac4e107619")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "O1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 166.37 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62b30a56-c1c3-460e-9a50-563527c3f1fc")
-		(property "Reference" "J1"
-			(at 166.37 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 166.37 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 166.37 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 166.37 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a12da04-369a-49b6-b124-df0ade1f3e7b")
-		)
-		(pin "2"
-			(uuid "b00fccb6-9398-40a4-a152-2e6bded64a4b")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 123.19 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67363837-499a-4ed0-8984-deda23a79a86")
-		(property "Reference" "SW33"
-			(at 123.19 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 123.19 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 123.19 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 123.19 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3850df3e-1768-4163-ad1c-d31137fe2135")
-		)
-		(pin "2"
-			(uuid "639a4ecf-9d6c-4f68-824e-3f5c3ee116a5")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "SW33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 241.3 148.59 90)
+		(at 107.95 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6494,7 +2740,7 @@
 		(fields_autoplaced yes)
 		(uuid "67bcde02-b12a-4eba-b456-07552205b45a")
 		(property "Reference" "R3"
-			(at 241.3 142.24 90)
+			(at 107.95 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6504,7 +2750,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 241.3 144.78 90)
+			(at 107.95 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6514,7 +2760,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 241.3 150.368 90)
+			(at 107.95 60.198 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6525,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 148.59 0)
+			(at 107.95 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6536,7 +2782,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 148.59 0)
+			(at 107.95 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6562,292 +2808,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 241.3 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6803ccd4-31ce-4438-8aeb-9b720d14a7b0")
-		(property "Reference" "D37"
-			(at 241.3 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 241.3 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fe998a0-265e-4d8b-9bf5-cc034bb72a2c")
-		)
-		(pin "2"
-			(uuid "55401380-4750-4d47-a6d1-fb96bf753f41")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 46.99 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "680f762d-efda-43b0-9b95-8457a12ee129")
-		(property "Reference" "D20"
-			(at 46.99 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 46.99 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 46.99 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 46.99 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 46.99 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c33f3161-8810-4154-aa2d-d65580080339")
-		)
-		(pin "2"
-			(uuid "3cf133c9-efcc-46df-b84f-f481b0b6deba")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 81.28 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6823c180-9956-41cd-8904-1fff49ae8dfa")
-		(property "Reference" "SW31"
-			(at 81.28 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 81.28 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 81.28 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 81.28 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df7a41e2-4f1c-4960-bd94-fcc024dac87e")
-		)
-		(pin "2"
-			(uuid "074729be-66a4-4625-8735-aed228bb3eda")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "SW31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_Expansion:MCP23017x-x-ML")
-		(at 259.08 162.56 0)
+		(at 125.73 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6857,7 +2819,7 @@
 		(dnp no)
 		(uuid "6f9f6ad7-bf26-4995-b8a3-6cfdc121001a")
 		(property "Reference" "U2"
-			(at 261.2233 134.62 0)
+			(at 127.8733 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6868,7 +2830,7 @@
 			)
 		)
 		(property "Value" "MCP23017x-x-ML"
-			(at 243.84 151.638 0)
+			(at 110.49 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6879,7 +2841,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
-			(at 264.16 187.96 0)
+			(at 130.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,7 +2853,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 264.16 190.5 0)
+			(at 130.81 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6903,7 +2865,7 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA7/GPB7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
-			(at 259.08 162.56 0)
+			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7010,1238 +2972,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 101.6 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72e45d48-0be8-4ab1-85d7-cc80ec2df1dc")
-		(property "Reference" "R4"
-			(at 101.6 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 101.6 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 101.6 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 101.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "52a1d545-e5c1-4ce4-a319-af0e96d0d6f7")
-		)
-		(pin "2"
-			(uuid "15215f6e-12ee-4c5e-8d24-5caf1ac3d8b3")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 67.31 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73d493b5-a43c-4009-98d5-5ff812eac0d5")
-		(property "Reference" "D30"
-			(at 67.31 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 67.31 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 67.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 67.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 67.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68c3860f-5961-4f8f-96f6-ce396cf57888")
-		)
-		(pin "2"
-			(uuid "3b1be656-ff84-4dfc-b9c9-a37141de9d52")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 123.19 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "792f468b-792a-4d01-bb40-51b1cc7c23b5")
-		(property "Reference" "T1"
-			(at 123.19 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 123.19 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 123.19 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 123.19 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "090b376f-f82f-456d-8e2e-e5f874a9d044")
-		)
-		(pin "2"
-			(uuid "88c1e8a1-46e1-472e-be1b-6f10b9d4fc9f")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 166.37 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d1a60a2-3a92-47b4-983c-cda748040c37")
-		(property "Reference" "SW35"
-			(at 166.37 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 166.37 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 166.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 166.37 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c121677-9946-4c99-8fda-586acc45072e")
-		)
-		(pin "2"
-			(uuid "d7d03d21-5506-4b34-a1d8-ab5e7a02da96")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "SW35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8293893b-5919-401f-8813-471b5c7eafc1")
-		(property "Reference" "Z1"
-			(at 38.1 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 38.1 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 38.1 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94591bdc-e78e-4a41-84cc-598d014c7e36")
-		)
-		(pin "2"
-			(uuid "e927fed8-e872-481c-b83f-0b4c8f4e4a25")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "Z1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 233.68 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82f5cbed-2282-4ee8-b198-773ff6cb85ed")
-		(property "Reference" "Enter1"
-			(at 233.68 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 233.68 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 233.68 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 233.68 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d8e2f9d7-7774-48ce-b55f-cddab777cccb")
-		)
-		(pin "1"
-			(uuid "5bd39c7e-2b64-4119-a303-4619b8cc2692")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "Enter1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 166.37 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "867212dc-857b-4af3-8a20-c96b4a645594")
-		(property "Reference" "M1"
-			(at 166.37 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 166.37 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 166.37 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 166.37 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d5991dc-0c4e-48c0-a31c-9df43ce0fb19")
-		)
-		(pin "2"
-			(uuid "98ad2ca5-ddad-44a0-8675-09782abba996")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 132.08 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87327bcd-e1d5-4034-950f-463302a77778")
-		(property "Reference" "D33"
-			(at 132.08 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 132.08 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 132.08 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 132.08 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 132.08 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "014e3b27-b0e0-460a-a013-8fe70aa8b0b2")
-		)
-		(pin "2"
-			(uuid "c1b74acb-39b2-4c26-8a29-5e06cbc1f47c")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 110.49 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "879e68aa-b8f8-434d-96e2-dc52c8ea8f4e")
-		(property "Reference" "D32"
-			(at 110.49 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 110.49 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 110.49 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 110.49 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 110.49 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 110.49 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c01aca4a-a59c-4d9f-9c40-422e9ae9f7b7")
-		)
-		(pin "2"
-			(uuid "45057754-c879-4212-8455-886b8ef45847")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 186.69 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8895459a-859c-452e-9e3b-c79f33d0e17f")
-		(property "Reference" "I1"
-			(at 186.69 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 186.69 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 186.69 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d09c3bdb-8f95-4038-aa1e-8b7b8c5c7635")
-		)
-		(pin "2"
-			(uuid "65fae7c5-44da-4331-9c08-7fd376dededb")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "I1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 123.19 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a8340a5-fd9a-4da6-93eb-1d4867d19d70")
-		(property "Reference" "G1"
-			(at 123.19 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 123.19 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 123.19 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 123.19 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "251463e9-976f-4ec2-a923-b03800b4d963")
-		)
-		(pin "2"
-			(uuid "a5a74bb0-2838-4346-9207-0726d6ce4757")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "G1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 195.58 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9101a6ad-94e6-47d1-835d-d49de146ea61")
-		(property "Reference" "D18"
-			(at 195.58 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 195.58 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 195.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 195.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 195.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 195.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 195.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e795e9e9-2507-46e4-9158-769726c1b28a")
-		)
-		(pin "2"
-			(uuid "cfcddff3-8588-4a11-85b7-5f0ca1d3dc0d")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 90.17 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "937602de-6a72-4991-aefb-60de3c3c923d")
-		(property "Reference" "D3"
-			(at 90.17 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 90.17 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 90.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 90.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 90.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ec85714-999b-4719-8a9b-d2307e5f7590")
-		)
-		(pin "2"
-			(uuid "a7361acf-b58c-4806-98d7-1794af163247")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9400f443-bdee-4100-b178-1d7012d7679e")
-		(property "Reference" "SW34"
-			(at 144.78 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 144.78 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 144.78 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3be626d-99c4-43b3-bcbc-089e3123f82f")
-		)
-		(pin "2"
-			(uuid "e2c7d69e-9d08-4fdf-9975-7ecfb1f0cad3")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "SW34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 254 134.62 90)
+		(at 120.65 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8252,7 +2984,7 @@
 		(fields_autoplaced yes)
 		(uuid "9419d72b-927c-4d3f-9bee-bb69b129933f")
 		(property "Reference" "C1"
-			(at 254 127 90)
+			(at 120.65 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8262,7 +2994,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 254 129.54 90)
+			(at 120.65 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8272,7 +3004,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 257.81 133.6548 0)
+			(at 124.46 43.4848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,7 +3015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 134.62 0)
+			(at 120.65 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +3026,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 254 134.62 0)
+			(at 120.65 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,110 +3052,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 175.26 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96e1e451-868b-4d4d-a3b9-895c4419633e")
-		(property "Reference" "D7"
-			(at 175.26 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 175.26 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 175.26 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 175.26 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 175.26 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c86c9c4-17ac-4aad-a185-732d5d155475")
-		)
-		(pin "2"
-			(uuid "4c39f528-246d-47f2-b511-2696a32f57fe")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 259.08 187.96 0)
+		(at 125.73 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8433,7 +3063,7 @@
 		(dnp no)
 		(uuid "9aa24b83-48fc-429c-a5e8-30dfa6c64749")
 		(property "Reference" "#FLG02"
-			(at 259.08 186.055 0)
+			(at 125.73 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8444,7 +3074,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 259.08 192.024 0)
+			(at 125.73 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8454,7 +3084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 187.96 0)
+			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8465,7 +3095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 187.96 0)
+			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8476,7 +3106,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 259.08 187.96 0)
+			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8499,430 +3129,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 186.69 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9aeec6a7-998f-4236-a485-0b3dae0e55b7")
-		(property "Reference" "K1"
-			(at 186.69 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 186.69 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ef8884a-24c3-49c1-a540-098a2d94e4f0")
-		)
-		(pin "2"
-			(uuid "2d8e55c1-a6fe-4b32-9ecd-5a0097fba6cb")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 90.17 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ed69021-f88d-4b5c-aab8-429c91ed8fe1")
-		(property "Reference" "D22"
-			(at 90.17 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 90.17 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 90.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 90.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 90.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5744861c-526f-4420-9c6b-e2383283acad")
-		)
-		(pin "2"
-			(uuid "3c4485c7-477e-4a8b-a299-aac7c239ef7f")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 101.6 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0b68798-45a5-446e-b42f-b22b916fc77e")
-		(property "Reference" "SW32"
-			(at 101.6 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 101.6 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 101.6 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 101.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "52c54803-e085-477b-8118-1e320950cb14")
-		)
-		(pin "2"
-			(uuid "941462a6-b298-468f-a245-57899a8b1c05")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "SW32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 101.6 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a24c72a9-31fb-4ceb-95d1-bc6cb0e5cb8a")
-		(property "Reference" "F1"
-			(at 101.6 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 101.6 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 101.6 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 101.6 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed505019-44cd-4ba4-9078-47f377eb07d7")
-		)
-		(pin "2"
-			(uuid "fbc06fd0-2b69-4b03-9153-8907bce92575")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a31ebb53-fd1c-4dad-9aee-f14efcacf5cd")
-		(property "Reference" "H1"
-			(at 144.78 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 144.78 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 144.78 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1145a09-0782-4b16-95d5-1b3c6d8c42ce")
-		)
-		(pin "2"
-			(uuid "2df596dc-ce38-40ea-95b3-ec34c42b6cab")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 259.08 133.35 0)
+		(at 125.73 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8930,10 +3138,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a33a505b-9b6d-45ef-902d-d761477a16d1")
 		(property "Reference" "#FLG01"
-			(at 259.08 131.445 0)
+			(at 125.73 41.275 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8944,7 +3151,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 259.08 128.27 0)
+			(at 129.286 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8954,7 +3161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 133.35 0)
+			(at 125.73 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8965,7 +3172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 133.35 0)
+			(at 125.73 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8976,7 +3183,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 259.08 133.35 0)
+			(at 125.73 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,2456 +3205,436 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 95.25 0)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 34.29 121.92)
+		(size 58.42 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5f97698-f23c-4d1a-807c-9437661a3120")
-		(property "Reference" "N1"
-			(at 144.78 87.63 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4c7a8b52-c7c8-4b16-822b-590c8de5372e")
+		(property "Sheetname" "Key Matrix"
+			(at 34.29 121.2084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 144.78 90.17 0)
+		(property "Sheetfile" "Key_Matrix.kicad_sch"
+			(at 34.29 159.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 144.78 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "COL1" input
+			(at 92.71 124.46 0)
+			(uuid "5697f7c4-a5ba-44e7-a757-84011eba9032")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" ""
-			(at 144.78 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "COL2" input
+			(at 92.71 127 0)
+			(uuid "ed955d7b-fac7-45ce-8b79-50cff2447e4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "COL3" input
+			(at 92.71 129.54 0)
+			(uuid "2dc3ceec-8a18-48c6-9623-672e619b1cc0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(pin "1"
-			(uuid "9fe889d9-640b-4519-8fab-18b04af9b4ac")
+		(pin "COL4" input
+			(at 92.71 132.08 0)
+			(uuid "4db26580-e3f3-493a-aaa1-5f9a32d92c04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "2"
-			(uuid "16f72471-e36e-4d20-9921-5d7183e99604")
+		(pin "COL5" input
+			(at 92.71 134.62 0)
+			(uuid "b8894b91-07b3-40a8-a5d8-9c7435bd3b2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL6" input
+			(at 92.71 137.16 0)
+			(uuid "6170a951-8943-43a7-935e-100a839fc925")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL7" input
+			(at 92.71 139.7 0)
+			(uuid "a2c2d159-7f6c-4d93-ac4c-e0b9a03435a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL8" input
+			(at 92.71 142.24 0)
+			(uuid "a44d46e8-9f72-42ce-ba97-4a979589d4b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL9" input
+			(at 92.71 144.78 0)
+			(uuid "73d9a450-ffeb-4bfc-be29-6fe2d160641b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL10" input
+			(at 92.71 147.32 0)
+			(uuid "b87f73f4-928e-48b4-b0b4-3105af28a297")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW1" input
+			(at 34.29 125.73 180)
+			(uuid "416ace16-9cde-4026-9f8c-27bac6b1112a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROW2" input
+			(at 34.29 128.27 180)
+			(uuid "003ea8d7-34e1-40f3-a2cb-7df91561eb0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROW3" input
+			(at 34.29 130.81 180)
+			(uuid "b87137ce-b64e-45bd-8904-d80cc9b42fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROW4" input
+			(at 34.29 133.35 180)
+			(uuid "a3c3f367-94f4-42bd-a754-30bc6964167c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "Keyboard-Zerodeck"
 				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "N1")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 195.58 34.29 180)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 109.22 110.49)
+		(size 52.07 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a631752a-f46f-420b-9073-5808dc08ad81")
-		(property "Reference" "D8"
-			(at 195.58 27.94 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "88f4f343-040b-4199-a31c-3ea006aede72")
+		(property "Sheetname" "JOYSTICK"
+			(at 109.22 109.7784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 195.58 30.48 0)
+		(property "Sheetfile" "JOYSTICK.kicad_sch"
+			(at 109.22 132.6646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "3.3V" input
+			(at 161.29 114.3 0)
+			(uuid "199033fb-e32a-4cba-b1e6-c79b7fb8aa79")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "GND" input
+			(at 161.29 116.84 0)
+			(uuid "6c993e2f-49b7-4e90-858f-198217d06410")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "JOY_SW" input
+			(at 161.29 119.38 0)
+			(uuid "4b1e67ac-3b3a-4a1b-b18c-53b0957c05ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "JOY_X" input
+			(at 161.29 121.92 0)
+			(uuid "dfc04a59-7a2e-44a4-92b1-2623d39b891f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "JOY_Y" input
+			(at 161.29 124.46 0)
+			(uuid "815680f2-120a-4707-b3e6-59d96795e604")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(pin "1"
-			(uuid "c81fc76e-1b0f-4c36-b4d7-5a02e04d6a1f")
+		(pin "JLEFT_CLICK" input
+			(at 161.29 127 0)
+			(uuid "5fd95031-3ccc-45b2-a251-bf0e9143494b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "2"
-			(uuid "23fc0fd1-d919-44cd-9368-b647008b22a8")
+		(pin "JRIGHT_CLICK" input
+			(at 161.29 129.54 0)
+			(uuid "974d8b16-a81c-4ba6-9b8b-7046d5da57fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "Keyboard-Zerodeck"
 				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D8")
-					(unit 1)
+					(page "3")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 175.26 63.5 180)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 180.34 66.04)
+		(size 25.4 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac29c5ab-427d-4a75-a10e-2b81d28000f1")
-		(property "Reference" "D17"
-			(at 175.26 57.15 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a0c17508-c463-4625-a828-afc02bb2adad")
+		(property "Sheetname" "INTERCONNECTOR"
+			(at 180.34 65.3284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 175.26 59.69 0)
+		(property "Sheetfile" "INTERCONNECTOR.kicad_sch"
+			(at 180.34 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3613c63d-5126-499e-a520-1fc732354f62")
-		)
-		(pin "2"
-			(uuid "5f49a085-ad73-4141-975d-1850bac353d5")
 		)
 		(instances
 			(project "Keyboard-Zerodeck"
 				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D17")
-					(unit 1)
+					(page "4")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 153.67 63.5 180)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 29.21 33.02)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac543427-591d-4e4c-9462-fcfddeeedc38")
-		(property "Reference" "D16"
-			(at 153.67 57.15 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a7003389-5ce7-40cf-8381-041682537b6d")
+		(property "Sheetname" "OLED_KEYBOARD"
+			(at 29.21 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 153.67 59.69 0)
+		(property "Sheetfile" "OLED_KEYBOARD.kicad_sch"
+			(at 29.21 43.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "3.3V" input
+			(at 49.53 34.29 0)
+			(uuid "c6fd6932-995a-41d8-98cd-cebe3b578220")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "GND" input
+			(at 49.53 36.83 0)
+			(uuid "837d389e-2068-4c6a-9e53-8d6fc440768b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "SCL" input
+			(at 49.53 39.37 0)
+			(uuid "b08007ee-4268-4e5e-827c-c888bc3fc3bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "SDA" input
+			(at 49.53 41.91 0)
+			(uuid "6f72861d-10fc-4b1e-a161-4f937a2c82b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b1ac05a-b6cc-46f1-8de1-8fe1306aae4d")
-		)
-		(pin "2"
-			(uuid "d73870b1-d595-4399-b3fc-071b1f6f7b50")
 		)
 		(instances
 			(project "Keyboard-Zerodeck"
 				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 217.17 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af8db5b5-eeab-459a-a626-69c4fa09e20f")
-		(property "Reference" "D19"
-			(at 217.17 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 217.17 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 217.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 217.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 217.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "444d6cd9-5983-4305-96d7-66c9a8ab310b")
-		)
-		(pin "2"
-			(uuid "c4121e6c-8e45-4a27-8a36-68e1d4e985c7")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 46.99 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b564cb33-7aef-48da-b9e5-fe51aed8c800")
-		(property "Reference" "D29"
-			(at 46.99 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 46.99 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 46.99 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 46.99 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 46.99 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "425300dd-9bfd-4091-9e2d-c33931a0c612")
-		)
-		(pin "2"
-			(uuid "597f6ccc-1b7c-4b9c-947c-51ff103b905e")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 132.08 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7edfa68-d408-4f48-9db7-ca9429dc291f")
-		(property "Reference" "D5"
-			(at 132.08 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 132.08 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 132.08 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 132.08 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 132.08 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd9feb26-feb2-4ea6-a3f7-1a06e6c05f6a")
-		)
-		(pin "2"
-			(uuid "a316d5ce-2452-4ee0-9759-34133af76c76")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 195.58 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bed8c2d5-3675-4cfa-a712-23421c3334c0")
-		(property "Reference" "D27"
-			(at 195.58 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 195.58 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 195.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 195.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 195.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 195.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 195.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "451e020d-e230-46f0-b614-ebfc2a31a685")
-		)
-		(pin "2"
-			(uuid "c8c767e5-4ecd-46e6-93c9-816fea3f6ef6")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 208.28 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf486a7e-ed23-42a3-995d-4e6810ff220c")
-		(property "Reference" "L1"
-			(at 208.28 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 208.28 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 208.28 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "460a8779-3023-4cb4-bae9-e18764d3fa9c")
-		)
-		(pin "2"
-			(uuid "238591cd-52ed-426f-a570-fcc0a6e3609b")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 110.49 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1975966-99a7-45fa-825f-5828aa34b04a")
-		(property "Reference" "D14"
-			(at 110.49 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 110.49 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 110.49 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 110.49 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 110.49 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 110.49 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b33635c6-02fd-4e88-b7f1-b5b793e0ae57")
-		)
-		(pin "2"
-			(uuid "9594fb8d-8a21-4690-b6df-ebc82e799fa3")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 58.42 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4e9d63f-16ba-4199-a2e9-c4d648c6ef8b")
-		(property "Reference" "SW30"
-			(at 58.42 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 58.42 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 58.42 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa7cacfa-1b5d-4fe8-8be0-483518baf0de")
-		)
-		(pin "2"
-			(uuid "b45e7c38-7a35-4a8a-8ade-d9204762f652")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "SW30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 67.31 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9a6cc28-72da-482b-af0d-204b0c01a6d6")
-		(property "Reference" "D21"
-			(at 67.31 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 67.31 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 67.31 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 67.31 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 67.31 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "344f6b96-a9e1-4747-8475-0103c4e64017")
-		)
-		(pin "2"
-			(uuid "59925f80-77a7-46e0-bba6-023d8b14cbb5")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 46.99 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc89cdb3-c986-4de9-9cab-1c45477e73dc")
-		(property "Reference" "D1"
-			(at 46.99 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 46.99 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 46.99 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 46.99 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 46.99 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fc850eba-08bc-43c4-a2c3-91471c23b4d9")
-		)
-		(pin "1"
-			(uuid "59da8406-15aa-48f3-9233-82e7411c009f")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 153.67 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cedefe12-10f3-42b9-8e2f-bcb550ab110d")
-		(property "Reference" "D34"
-			(at 153.67 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 153.67 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 153.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 153.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 153.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 153.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 153.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a33ae946-926b-42e4-8cb8-b7213e219e3a")
-		)
-		(pin "2"
-			(uuid "eb631ec0-291d-45a5-90ee-676a12354783")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 58.42 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1926540-19f9-4e7c-94d6-3b6b82af1d1a")
-		(property "Reference" "X1"
-			(at 58.42 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 58.42 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 58.42 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df8437f9-7cb1-4747-979b-84bb0a5d55db")
-		)
-		(pin "2"
-			(uuid "6114b025-25d1-4714-a755-f96f00f6d94b")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 58.42 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d24a9800-e407-465c-a718-81489dfdbc87")
-		(property "Reference" "W1"
-			(at 58.42 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 58.42 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 58.42 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0cc5ed27-cf0e-4b32-bb34-6d1618faebcf")
-		)
-		(pin "1"
-			(uuid "ebd1d618-55f6-4631-9294-2c1c76e5c3b6")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "W1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 175.26 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3eb597b-bdcd-4cf2-9353-0d54ade2b48e")
-		(property "Reference" "D35"
-			(at 175.26 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 175.26 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5beb84a-5b45-48cc-bdbb-a05992caa726")
-		)
-		(pin "2"
-			(uuid "244f480d-70c3-41d2-9e4e-13845e3f3597")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 132.08 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5e098a1-b036-4dbf-bfa5-149bd853c959")
-		(property "Reference" "D24"
-			(at 132.08 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 132.08 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 132.08 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 132.08 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 132.08 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e59cd2e3-16f2-49b3-8b59-8aebe6bc7c5b")
-		)
-		(pin "2"
-			(uuid "9afd77b3-e3ec-4c68-8314-58b0baf4521f")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 90.17 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df22df7f-a597-462c-981f-504efaa6534b")
-		(property "Reference" "D31"
-			(at 90.17 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 90.17 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 90.17 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 90.17 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 90.17 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6eae0e46-76f7-40b3-b0c7-0e70f43e0a9d")
-		)
-		(pin "2"
-			(uuid "f925c537-aa30-4888-8c87-64f6c632cb3b")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3cee920-4cfa-4502-8d48-dbe3cfb4cec8")
-		(property "Reference" "Q1"
-			(at 38.1 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 38.1 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 38.1 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 38.1 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5fcc6dba-e3bb-4456-9c10-fc4064c3cbd2")
-		)
-		(pin "2"
-			(uuid "0ac17f6b-2098-48ae-8449-56271655a71f")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 67.31 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5d96c9d-e13d-4f29-bb3e-902ed370a8ec")
-		(property "Reference" "D12"
-			(at 67.31 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 67.31 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 67.31 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 67.31 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 67.31 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c544600-6ca0-4258-8e8c-15cf05c70b14")
-		)
-		(pin "2"
-			(uuid "ac54bac9-9772-4e78-9927-e5b6ea136808")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 58.42 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec901808-1fce-477b-b9cb-698b37693cf2")
-		(property "Reference" "S1"
-			(at 58.42 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 58.42 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 58.42 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da4637f4-75d9-4ef7-a1b7-6ea6f1914633")
-		)
-		(pin "2"
-			(uuid "c0b81104-0fe3-4965-b24a-c8ae9a6cc96f")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 67.31 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed8cfe07-472f-42ea-991d-b33136c82b10")
-		(property "Reference" "D2"
-			(at 67.31 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 67.31 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "853431c1-77a7-4936-b134-62c8cd310378")
-		)
-		(pin "2"
-			(uuid "6d1a48c5-14b7-4e61-88b4-33b2f77163e4")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 186.69 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef13a357-132c-4b2a-b6d2-0e52ca3891cd")
-		(property "Reference" ",1"
-			(at 186.69 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 186.69 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 186.69 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d46e9ab3-b2a5-4358-a8c5-b7fb8f5a113d")
-		)
-		(pin "2"
-			(uuid "1e3ce8aa-4c8b-4143-ae96-bb0ec4ed9e6b")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference ",1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 132.08 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc9fa21c-21c9-470f-af89-e0116eeb78cc")
-		(property "Reference" "D15"
-			(at 132.08 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 132.08 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 132.08 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 132.08 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 132.08 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9acda9f0-60ee-4836-9850-c95cc4f31890")
-		)
-		(pin "2"
-			(uuid "daa3ecec-13fe-4e4b-b089-cf18a7d61868")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 208.28 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdf0b118-9369-49f0-b6f1-283e7a850d30")
-		(property "Reference" ".1"
-			(at 208.28 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 208.28 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Zero-Deck keys:Kailh_socket_PG1350"
-			(at 208.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d3de5d6-df87-4a81-b423-4096050ce453")
-		)
-		(pin "2"
-			(uuid "bafe14c1-ca05-458e-bd72-5b53fab43829")
-		)
-		(instances
-			(project "Keyboard-Zerodeck"
-				(path "/83b0bf1e-f042-47d2-8247-013ebbe736a1"
-					(reference ".1")
-					(unit 1)
+					(page "5")
 				)
 			)
 		)

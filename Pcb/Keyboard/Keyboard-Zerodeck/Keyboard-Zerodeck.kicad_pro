@@ -648,13 +648,29 @@
         "uuid": "83b0bf1e-f042-47d2-8247-013ebbe736a1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R4,J3-5,E1,Alt1,Q1,I1,O1,P1,T1,U3,W1,DICK1,Y1,Ctrl1,Function1,MC1,MCC1,MCCC1,Space1,SW1-2,ZZZ1,Comma1,Dot1,D24,D28",
     "variants": []
   },
   "sheets": [
     [
       "83b0bf1e-f042-47d2-8247-013ebbe736a1",
       "Keyboard-Zerodeck"
+    ],
+    [
+      "4c7a8b52-c7c8-4b16-822b-590c8de5372e",
+      "Key Matrix"
+    ],
+    [
+      "88f4f343-040b-4199-a31c-3ea006aede72",
+      "JOYSTICK"
+    ],
+    [
+      "a0c17508-c463-4625-a828-afc02bb2adad",
+      "INTERCONNECTOR"
+    ],
+    [
+      "a7003389-5ce7-40cf-8381-041682537b6d",
+      "OLED_KEYBOARD"
     ]
   ],
   "text_variables": {},
